@@ -16,7 +16,7 @@ const LoginInput = ({ Login }) => {
   return (
     <form className="login-input" onSubmit={handleSubmit}>
       <h2>
-        See <strong>The World</strong>, <br /> Through Talks App.
+        See <strong>The World</strong>, <br /> Through Talks
       </h2>
 
       <input
