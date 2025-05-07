@@ -21,10 +21,7 @@ const App = () => {
         </header>
         <main>
           <Routes>
-            <Route
-              path="/"
-              element={<ThreadPage />}
-            />
+            <Route path="/" element={<ThreadPage />} />
             <Route path="/threads/:threadId" element={<CommentPage />} />
             <Route path="/threads" element={<ThreadCreatePage />} />
             <Route path="/leaderboards" element={<LeaderboardsPage />} />
